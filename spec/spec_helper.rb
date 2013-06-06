@@ -1,11 +1,11 @@
 ENV['RACK_ENV'] = 'test'
-require 'minitest/spec'
 require 'minitest/autorun'
+require 'minitest/spec'
 require 'sinatra/test_helpers'
 
 require File.expand_path '../../app', __FILE__
 
-class MiniTest::Spec
+class Minitest::Spec
   include Sinatra::TestHelpers
 
   def app

@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/sinatra/sinatra-contrib.git
-  revision: 7e39d6d1b709cf5ee50192b2f6d58c5e8fcde0af
+  revision: 1aed2897edebbea5e18a5772af9e060a689013fe
   specs:
     sinatra-contrib (1.4.0)
       backports (>= 2.0)
@@ -12,26 +12,26 @@ GIT
 
 GIT
   remote: git://github.com/sinatra/sinatra.git
-  revision: 0ebea52444f327bccff54d91f028d4dfdbd274ee
+  revision: c7aa44f01f24ba0f03d625a5a11497e634420bd3
   specs:
-    sinatra (1.4.1)
-      rack (~> 1.5, >= 1.5.2)
+    sinatra (1.4.2)
+      rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    backports (3.1.1)
+    backports (3.3.1)
     eventmachine (1.0.3)
-    minitest (4.7.0)
+    minitest (5.0.3)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.0.3)
-    tilt (1.3.6)
+    rake (10.0.4)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
